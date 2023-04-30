@@ -1,0 +1,19 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.back-btn {
+    background-color: rgba(220, 0, 0, 1);
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+.img {
+    flex: auto;
+}
