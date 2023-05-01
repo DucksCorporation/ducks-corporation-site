@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin-top: 25px;
+
+    & .navLinks {
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        padding: 17px;
+    }
+
+    & .navList {
+        list-style: none;
+        display: flex;
+        column-gap: 20px;
+    }
+
+    & .navLogo {
+        width: 75px;
+        height: 75px;
+        margin: 10px 0px 10px 250px;
+        
+        &:hover {
+            transition: 0.3s;
+            transform: rotate(360deg) scale(1.5);
+        }
+    }
+
+    & .navBtn:hover {
+        background-color: rgba(220, 0, 0, 1);
+    }
+}
